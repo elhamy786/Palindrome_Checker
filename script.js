@@ -7,21 +7,21 @@ document.getElementById('check-btn').addEventListener('click', function() {
   });
   const correctGif = document.getElementById('correct-gif');
   const incorrectGif = document.getElementById('incorrect-gif');
-  if (textInput === '') {
-    alert('Please input a value');
+  if (textInput === '') { alert('Please input a value');
     return;
   }
     // Remove non-alphanumeric characters and convert to lowercase
-    const cleanedInput = textInput.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-    const reversedInput = cleanedInput.split('').reverse().join('');
+  const cleanedInput = textInput.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  const reversedInput = cleanedInput.split('').reverse().join('');
 
     if (cleanedInput === reversedInput) {
-        resultElement.textContent = `${textInput} is a palindrome`;
-        correctGif.style.display = 'block';
-                incorrectGif.style.display = 'none';
-    } else {
-        resultElement.textContent = `${textInput} is not a palindrome`;
-        correctGif.style.display = 'none';
-                incorrectGif.style.display = 'block';
-    }
+    resultElement.textContent = `${textInput} is a palindrome`;
+    correctGif.style.display = 'block';
+    incorrectGif.style.display = 'none';
+  } 
+  else {
+    resultElement.textContent = `${textInput} is not a palindrome`;
+    correctGif.style.display = 'none';
+    incorrectGif.style.display = 'block';
+  }
 });
