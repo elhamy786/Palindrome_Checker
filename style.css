@@ -14,6 +14,7 @@ body {
   background-position: center; 
 
   height: 100vh; 
+  
   width: 100vw; 
 }
 
@@ -27,7 +28,8 @@ body {
   font-family: cursive;
 }
 
-input, button {
+input, 
+button {
   padding: 10px;
   margin: 5px;
   border-radius: 4px;
@@ -41,8 +43,11 @@ input, button {
 
 .gif {
   display: none;
+
   margin: 10px; 
-  height: 300px; 
+
+  height: 300px;
+
   object-fit: cover; 
   width: 400px;
 }
