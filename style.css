@@ -37,9 +37,9 @@ input, button {
 }
 
 .gif {
-    display: none;
-    margin: 10px; 
-    height: 300px; 
-    object-fit: cover; 
-    width: 400px;
+  display: none;
+  margin: 10px; 
+  height: 300px; 
+  object-fit: cover; 
+  width: 400px;
 }
