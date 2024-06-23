@@ -7,9 +7,12 @@ body {
   height: 100vh;
   background-image: url(4735eaae4804a4e26ec52e5f8dc51a77687f532a.webp);
   margin: 0;
-  background-size: cover; 
+  background-size: cover;
+
   background-repeat: no-repeat; 
+
   background-position: center; 
+
   height: 100vh; 
   width: 100vw; 
 }
