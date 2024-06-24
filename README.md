@@ -1,96 +1,66 @@
-# Project Title 🚀
+# Palindrome Checker 🚀
 
-## Project Description 📝
+## Add functionality to check if an input is a palindrome, with input validation and dynamic result display.📝
 
-> Provide a detailed overview of your project. Explain what it does, why it is useful, and any other relevant information.
-
-Examples:
-
-- What inspired you to create this project?
-- What problems does it solve?
-- What did you learn from working on this project?
-- What makes your project stand out?
-
-```html
-<!-- Include code snippets or examples to demonstrate your project. -->
-```
+> This project is a web application built with HTML, CSS, and JavaScript that checks if a given input is a palindrome by removing non-alphanumeric characters, normalizing the case, and dynamically displaying the result, making it useful for education, coding practice, and fun.
 
 ```css
-/* You can also include CSS code snippets. */
+input,
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
 ```
-
 ```javascript
-// You can also include JavaScript code snippets.
+function hideGifs() {
+  document.getElementById('correct-gif').style.display = 'none';
+  document.getElementById('incorrect-gif').style.display = 'none';
+}
 ```
 
 ## Demo 📸
-
-Include a demo or animated GIF of your project. You can use tools like [asciinema](https://asciinema.org/) to record your terminal sessions.
-
-![Demo](https://via.placeholder.com/600x300)
+[live Demo] (https://elhamy786.github.io/Palindrome_Checker/)
+![Screenshot](./images/Picture1.png)
 
 ## Technologies Used 🛠️
-
-List the technologies or tools you used to develop your project. You can also include the libraries or frameworks you used.
-
-Examples:
 
 - HTML
 - CSS
 - JavaScript
-- React
-- Node.js
-- Express
-- MongoDB
-- Tailwind CSS
 
 ## Installation 💻
 
-Provide step-by-step instructions on how to install and set up your project. Include any dependencies or prerequisites that need to be installed.
-
 ```bash
-# Provide code snippets or commands to help users get started.
+1: Clone the Repository:
+git clone https://github.com/elhamy786/Palindrome_Checker.git
 ```
 
 ```bash
-# You can also include multiple steps to guide users through the installation process.
+2: Navigate to the Project Directory:
+cd Palindrome_Checker
 ```
 
 ```bash
-# You can also include any troubleshooting tips or FAQs.
+3: Open the index.html File in Your Browser.
 ```
 
 ## Usage 🎯
 
-Explain how to use your project. Provide examples and instructions on how to run it, any command-line options, or any other relevant information.
-
 ```bash
-# Provide code snippets or commands to demonstrate how to use your project.
+To use the project, open index.html in your browser, ensure style.css and script.js are in the same directory, enter text in the input field, click "Check", and view the palindrome result.
 ```
 
 ## Features ⭐
 
-List the key features of your project. Highlight any unique or noteworthy functionalities.
-
-Examples:
-
-- Feature 1
-- Feature 2
-- Feature 3
+- Real-time Input Validation: Alerts users if no input is provided.
+- Dynamic Result Display: Instantly shows whether the input is a palindrome or not, providing immediate feedback.
+- User-Friendly Interface: Clean and simple design for easy interaction.
 
 ## Author 👩‍💻
-
-Provide your name and a link to your Social Media profiles. You can also include your email address.
-
-- Website: [your-website.com](https://your-website.com)
-- Twitter: [@your-twitter](https://twitter.com/your-twitter)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-name)
-- Email: [example](mailto:example@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/elham-afzali-05326130b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- [Email](elham.afzali1383@gmail.com)
 
 ## Contributing 🤝
-
-Provide guidelines for others who want to contribute to your project. Include information on how to submit bug reports, feature requests, or pull requests.
-
-## License 📜
-
-Specify the license under which your project is distributed. Include any relevant copyright or attribution notices.
+To contribute, submit bug reports, feature requests, or pull requests via the GitHub repository issues and pull requests tabs.
