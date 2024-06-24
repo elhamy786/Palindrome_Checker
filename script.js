@@ -1,4 +1,4 @@
-  document.getElementById('check-btn').addEventListener('click', function handleClick() {
+document.getElementById('check-btn').addEventListener('click', function handleClick() {
   const textInput = document.getElementById('text-input').value;
   const resultElement = document.getElementById('result');
   document.addEventListener('DOMContentLoaded', () => {
@@ -8,7 +8,7 @@
   const correctGif = document.getElementById('correct-gif');
   const incorrectGif = document.getElementById('incorrect-gif');
   if (textInput === '') {
-    alert('Please input a value'); 
+    alert('Please input a value'); // This line shows the alert
     return;
   }
   const cleanedInput = textInput.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
